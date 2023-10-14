@@ -1,0 +1,22 @@
+{
+    "name": "HubEstate",
+    "version": "1.0.0",
+    "description": "Decentralized Real Estate Marketplace on Solana",
+    "main": "server/index.js",
+    "scripts": {
+      "start": "node server/index.js",
+      "client": "cd public && npm start",
+      "install-client": "cd public && npm install"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "@solana/web3.js": "^1.16.0",
+      "body-parser": "^1.19.0",
+      "cors": "^2.8.5",
+      "dotenv": "^10.0.0"
+    },
+    "devDependencies": {},
+    "author": "Your Name",
+   
+  }
+  
